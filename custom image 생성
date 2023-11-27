@@ -1,1 +1,9 @@
 https://hub.docker.com/repository/docker/4pple2/repo_iku/tags?page=1&ordering=last_updated
+
+1. dataiku/dss(이하 iku) down
+ㄴ docker pull dataiku/dss
+2. iku 컨테이너 변경
+ㄴ docker exec -it -u 0 <컨테이너 id> /bin/bash
+ㄴ 
+3. iku 컨테이너를 이미지화
+4. iku 컨테이너를 업로드하고 배포
